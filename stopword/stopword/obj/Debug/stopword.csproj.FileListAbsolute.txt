@@ -1,0 +1,6 @@
+c:\users\rune a. larsen\documents\visual studio 2013\Projects\stopword\stopword\bin\Debug\stopword.exe.config
+c:\users\rune a. larsen\documents\visual studio 2013\Projects\stopword\stopword\bin\Debug\stopword.exe
+c:\users\rune a. larsen\documents\visual studio 2013\Projects\stopword\stopword\bin\Debug\stopword.pdb
+c:\users\rune a. larsen\documents\visual studio 2013\Projects\stopword\stopword\obj\Debug\stopword.csprojResolveAssemblyReference.cache
+c:\users\rune a. larsen\documents\visual studio 2013\Projects\stopword\stopword\obj\Debug\stopword.exe
+c:\users\rune a. larsen\documents\visual studio 2013\Projects\stopword\stopword\obj\Debug\stopword.pdb
