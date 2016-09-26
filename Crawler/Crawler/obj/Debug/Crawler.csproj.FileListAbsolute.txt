@@ -1,0 +1,15 @@
+c:\users\nicolai vork\documents\visual studio 2013\Projects\Crawler\Crawler\bin\Debug\Crawler.exe.config
+C:\Users\Nicolai Vork\Documents\Visual Studio 2013\Projects\Crawler\Crawler\bin\Debug\Crawler.exe
+C:\Users\Nicolai Vork\Documents\Visual Studio 2013\Projects\Crawler\Crawler\bin\Debug\Crawler.pdb
+C:\Users\Nicolai Vork\Documents\Visual Studio 2013\Projects\Crawler\Crawler\obj\Debug\Crawler.csprojResolveAssemblyReference.cache
+C:\Users\Nicolai Vork\Documents\Visual Studio 2013\Projects\Crawler\Crawler\obj\Debug\Crawler.exe
+C:\Users\Nicolai Vork\Documents\Visual Studio 2013\Projects\Crawler\Crawler\obj\Debug\Crawler.pdb
+C:\Users\Nicolai Vork\Dropbox\Web Intelligence\Crawler\Crawler\bin\Debug\Crawler.exe.config
+C:\Users\Nicolai Vork\Dropbox\Web Intelligence\Crawler\Crawler\obj\Debug\Crawler.exe
+C:\Users\Nicolai Vork\Dropbox\Web Intelligence\Crawler\Crawler\obj\Debug\Crawler.pdb
+C:\Users\Nicolai Vork\Dropbox\Web Intelligence\Crawler\Crawler\bin\Debug\Crawler.exe
+C:\Users\Nicolai Vork\Dropbox\Web Intelligence\Crawler\Crawler\bin\Debug\Crawler.pdb
+C:\Users\Nicolai Vork\Dropbox\Web Intelligence\Crawler\Crawler\obj\Debug\Crawler.csprojResolveAssemblyReference.cache
+C:\Users\Nicolai Vork\Desktop\crawler\Crawler\Crawler\bin\Debug\Crawler.exe.config
+C:\Users\Nicolai Vork\Desktop\crawler\Crawler\Crawler\obj\Debug\Crawler.exe
+C:\Users\Nicolai Vork\Desktop\crawler\Crawler\Crawler\obj\Debug\Crawler.pdb
