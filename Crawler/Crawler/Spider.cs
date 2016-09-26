@@ -15,7 +15,7 @@ namespace Crawler {
         private Queue<String> queue2 = new Queue<String>();
         private Queue<String> queue3 = new Queue<String>();
 
-        public void initialize() {
+        public string initialize() {
             String seed = "https://da.wikipedia.org/wiki/Forside";
             queue1.Enqueue(seed);
             String text = getText(queue1.Dequeue());
@@ -28,8 +28,6 @@ namespace Crawler {
 
             parsedText = Regex.Replace(parsedText, @"<.*?>", "");
             
-
-            Console.WriteLine(parsedText);
 
             List<String> urls = new List<String>();
 
@@ -49,7 +47,8 @@ namespace Crawler {
                     //prioritizeUrl(str);
                 }
             }
-            Console.ReadLine();
+
+            return parsedText;
         }
 
         public String getText(String url) {
