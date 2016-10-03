@@ -5,16 +5,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApplication1 {
-    class CheckRobot {
+namespace Politeness
+{
+    class CheckRobot
+    {
         bool result;
-        public CheckRobot(string url) {
+        public CheckRobot(string url)
+        {
             Uri uri = new Uri(url);
 
-            result = File.Exists(@"C:\Users\Chres\Desktop\Robots\" + uri.Host + ".txt");
+            result = File.Exists(@Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "/Desktop/Robots/" + uri.Host + ".txt");
         }
 
-        public bool getResult() {
+        public bool getResult()
+        {
             return result;
         }
     }
