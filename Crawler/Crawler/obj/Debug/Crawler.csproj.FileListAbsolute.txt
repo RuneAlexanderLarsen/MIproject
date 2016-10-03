@@ -19,3 +19,6 @@ C:\Users\Rune A. Larsen\Documents\GitHub\MIseach\Crawler\Crawler\obj\Debug\Crawl
 C:\Users\Rune A. Larsen\Documents\GitHub\MIseach\Crawler\Crawler\obj\Debug\Crawler.csprojResolveAssemblyReference.cache
 C:\Users\Rune A. Larsen\Documents\GitHub\MIseach\Crawler\Crawler\bin\Debug\Crawler.exe
 C:\Users\Rune A. Larsen\Documents\GitHub\MIseach\Crawler\Crawler\bin\Debug\Crawler.pdb
+C:\Users\Nicolai Vork\Desktop\Web Intelligence\Crawler\Crawler\bin\Debug\Crawler.exe.config
+C:\Users\Nicolai Vork\Desktop\Web Intelligence\Crawler\Crawler\obj\Debug\Crawler.exe
+C:\Users\Nicolai Vork\Desktop\Web Intelligence\Crawler\Crawler\obj\Debug\Crawler.pdb

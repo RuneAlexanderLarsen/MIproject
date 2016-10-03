@@ -29,3 +29,7 @@ C:\Users\Nicolai Vork\Desktop\Web Intelligence\Crawler\Crawler\obj\Debug\Crawler
 D:\Crawler\bin\Debug\Crawler.exe.config
 D:\Crawler\obj\Debug\Crawler.exe
 D:\Crawler\obj\Debug\Crawler.pdb
+C:\Users\Nicolai Vork\Desktop\Web Intelligence\Crawler(vork)\bin\Debug\Crawler.exe.config
+C:\Users\Nicolai Vork\Desktop\Web Intelligence\Crawler(vork)\obj\Debug\Crawler.exe
+C:\Users\Nicolai Vork\Desktop\Web Intelligence\Crawler(vork)\obj\Debug\Crawler.pdb
+C:\Users\Nicolai Vork\Desktop\Web Intelligence\Crawler(vork)\obj\Debug\Crawler.csprojResolveAssemblyReference.cache

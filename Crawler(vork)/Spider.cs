@@ -36,7 +36,7 @@ namespace Crawler {
                 urls.Add(m.Value);
             }
 
-            //urls = normalizeUrls(urls);
+           urls = normalizeUrls(urls);
 
             /*foreach (String str in urls) {
                 Console.WriteLine(str);
@@ -44,7 +44,7 @@ namespace Crawler {
 
             foreach (String str in urls) {
                 if (!queue1.Contains(str) || !queue2.Contains(str) || !queue3.Contains(str)) {
-                    //prioritizeUrl(str);
+                    prioritizeUrl(str);
                 }
             }
 
