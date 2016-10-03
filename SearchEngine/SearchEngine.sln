@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crawler", "Crawler(vork)\Crawler.csproj", "{BF073715-0820-492C-A151-30C67F8BF3A7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchEngine", "SearchEngine\SearchEngine.csproj", "{285F1AA0-870A-4D81-B098-1D3D81297E40}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BF073715-0820-492C-A151-30C67F8BF3A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BF073715-0820-492C-A151-30C67F8BF3A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BF073715-0820-492C-A151-30C67F8BF3A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BF073715-0820-492C-A151-30C67F8BF3A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{285F1AA0-870A-4D81-B098-1D3D81297E40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{285F1AA0-870A-4D81-B098-1D3D81297E40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{285F1AA0-870A-4D81-B098-1D3D81297E40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{285F1AA0-870A-4D81-B098-1D3D81297E40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
