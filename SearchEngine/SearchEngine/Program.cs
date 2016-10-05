@@ -7,18 +7,25 @@ using System.Threading.Tasks;
 
 namespace Crawler {
     class Program {
+        private static int MAX_PAGES = 1000;
+
         static void Main(string[] args) {
             String result = "";
 
             //Crawler
             Spider spider = new Spider();
-            result = spider.initialize();
+            spider.initialize();
 
-            //Removal of stopwords and Tekenise
-            Stop stop = new Stop();
-            result = stop.initialize(result);
+            int i;
+            for(i = 0; i < MAX_PAGES; i++) {
+                result = spider.crawl();
 
-            Console.WriteLine(result);
+                //Removal of stopwords and Tokenise
+                Stop stop = new Stop();
+                result = stop.initialize(result);
+            }
+
+            //Console.WriteLine(result);
             Console.ReadLine();
         }
     }

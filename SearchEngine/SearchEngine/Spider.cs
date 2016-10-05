@@ -10,15 +10,27 @@ using System.Web;
 
 namespace Crawler {
     class Spider {
-        private int MAX_PAGES = 1000;
         private Queue<String> queue1 = new Queue<String>();
         private Queue<String> queue2 = new Queue<String>();
-        private Queue<String> queue3 = new Queue<String>();
+        String seed = "https://da.wikipedia.org/wiki/Forside";
 
-        public string initialize() {
-            String seed = "https://da.wikipedia.org/wiki/Forside";
+        public void initialize() {
             queue1.Enqueue(seed);
-            String text = getText(queue1.Dequeue());
+        }
+
+        public String crawl() {
+            String text;
+
+            //Always picks an url from queue1 over queue2
+            if (queue1.Count != 0) {
+                text = getText(queue1.Dequeue());
+            } else {
+                if (queue2.Count == 0) {
+                    text = "";
+                }
+                text = getText(queue2.Dequeue());
+            }
+
             String parsedText = "";
 
             var textParser = new Regex(@"(?<=\<p\>)(\s*.*\s*)(?=\<\/p\>)");
@@ -27,7 +39,8 @@ namespace Crawler {
             }
 
             parsedText = Regex.Replace(parsedText, @"<.*?>", "");
-            
+
+            //TODO: Check for near-duplicate. If not, add it to the index and continue to extract links
 
             List<String> urls = new List<String>();
 
@@ -36,18 +49,13 @@ namespace Crawler {
                 urls.Add(m.Value);
             }
 
-           urls = normalizeUrls(urls);
-
-            /*foreach (String str in urls) {
-                Console.WriteLine(str);
-            }*/
+            urls = normalizeUrls(urls);
 
             foreach (String str in urls) {
-                if (!queue1.Contains(str) || !queue2.Contains(str) || !queue3.Contains(str)) {
+                if (!queue1.Contains(str) || !queue2.Contains(str)) {
                     prioritizeUrl(str);
                 }
             }
-
             return parsedText;
         }
 
@@ -66,10 +74,6 @@ namespace Crawler {
             int i = 0;
 
             foreach (String str in urls) {
-                //Remove href=" and "
-                //normalizedUrls.Add(str.Remove(0, 6));
-                //normalizedUrls[i] = str.Remove(str.Length - 1, 1);
-
                 //Convert to lower case
                 normalizedUrls[i] = (str.Replace(str, str.ToLower()));
 
@@ -90,7 +94,12 @@ namespace Crawler {
             Uri uri = new Uri(url);
             String host = uri.Host;
 
-            Console.WriteLine(host);
+            //Prioritizes .dk domains over any other
+            if (host.Contains(".dk")) {
+                queue1.Enqueue(url);
+            } else {
+                queue2.Enqueue(url);
+            }
         }
     }
 }
