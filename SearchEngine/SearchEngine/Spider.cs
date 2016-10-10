@@ -71,13 +71,13 @@ namespace Crawler {
                 //normalizedUrls[i] = str.Remove(str.Length - 1, 1);
 
                 //Convert to lower case
-                normalizedUrls[i] = (str.Replace(str, str.ToLower()));
+                //normalizedUrls[i] = (str.Replace(str, str.ToLower()));
 
                 //Capitalize the two characters after %
                 int j = 0;
                 foreach (Char c in str) {
                     if (c.Equals('%')) {
-                        normalizedUrls[i] = normalizedUrls[i].Replace(str.Substring(j + 1, 2), normalizedUrls[i].Substring(j + 1, 2).ToUpper());
+                        //normalizedUrls[i] = normalizedUrls[i].Replace(str.Substring(j + 1, 2), normalizedUrls[i].Substring(j + 1, 2).ToUpper());
                     }
                     j++;
                 }

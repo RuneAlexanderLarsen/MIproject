@@ -35,8 +35,8 @@ namespace Crawler {
             return termFrequency * inverseDocumentFrequency;
         }
 
-        public double cosineScore(String query) {
+        /*public double cosineScore(String query) {
 
-        }
+        }*/
     }
 }
