@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="CheckRobot.cs" />
     <Compile Include="Indexer.cs" />
+    <Compile Include="PageRanker.cs" />
     <Compile Include="Parser.cs" />
     <Compile Include="Posting.cs" />
     <Compile Include="Program.cs" />
