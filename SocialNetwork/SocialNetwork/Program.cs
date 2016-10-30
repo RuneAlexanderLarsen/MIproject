@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 namespace SocialNetwork {
     class Program {
         static void Main(string[] args) {
-
+            ReadFromFile read = new ReadFromFile();
+            read.readFile();
         }
     }
 }
